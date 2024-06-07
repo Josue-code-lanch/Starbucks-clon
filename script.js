@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const navbar = document.querySelector('.navbar');
 
     dropdownBtn.addEventListener('click', function () {
-        navbar.classList.toggle('show');
+        navbar.classList.add('show');
     });
 });

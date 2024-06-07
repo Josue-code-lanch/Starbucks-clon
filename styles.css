@@ -519,6 +519,9 @@ ul li {
   #dropdown-btn {
     display: block;
   }
+  .show {
+    display: block;
+  }
   .navbar {
     padding: 0 16px;
     display: flex;
