@@ -6,17 +6,18 @@
   --color-4: #000000;
   --color-5: #000000de;
   --color-6: #00000094;
+  --color-navbar: #00754a;
 
   /* Colores de fondo */
   --background-1: #ffffff;
   --background-2: #d4e9e2;
-  --background-3: #f7cdd0;
+  --background-3: #c0e8a6;
   --background-4: #fd713d;
-  --background-5: #008248;
-  --background-6: #00754a;
-  --background-7: #016343;
-  --background-8: #006241;
-  --background-9: #0021db;
+  --background-5: #0021db;
+  --background-6: #97d8b1;
+  --background-7: #bbf2d1;
+  --background-8: #98cee3;
+  --background-9: #c300bd;
 
   /* Colores de border */
   --borde-1: #ffffff;
@@ -73,7 +74,7 @@ main {
   margin-right: 20px;
 }
 .menu a:hover {
-  color: var(--background-8);
+  color: var(--color-navbar);
 }
 .menu ul {
   padding: 0;
@@ -200,6 +201,7 @@ main {
 /* SECCION 1 */
 .section-1 {
   background-color: var(--background-3);
+  color: #1e3932;
 }
 .text-1 h2 {
   font-size: 24px;
@@ -215,13 +217,13 @@ main {
   text-align: center;
 }
 .section-button-1 {
-  color: var(--color-4);
-  background-color: var(--background-1);
+  color: #1e3932;
+  background-color: transparent;
   transition: 0.1s ease-in-out;
-  border: none;
+  border: 1px solid #1e3932;
 }
 .section-button-1:hover {
-  background-color: #fcf4f4;
+  background-color: #a6b69c4a;
 }
 /* SECCION 2 */
 .section-2 {
@@ -249,24 +251,24 @@ main {
 }
 .section-button-2:hover,
 .section-button-3:hover {
-  background-color: #001bb4;
+  background-color: #4b01485b;
 }
 
 /* SECCION 3 */
 .section-3 {
-  background-color: var(--background-9);
+  background-color: var(--background-5);
   color: var(--color-1);
 }
 .text-3 h2 {
   font-weight: 600;
   display: inline;
-  font-size: 24px;
+  font-size: 50px;
   letter-spacing: -0.16px;
   line-height: 36px;
   text-align: center;
 }
 .text-3 p {
-  font-size: 19px;
+  font-size: 24px;
   letter-spacing: -0.16px;
   line-height: 33.25px;
   text-align: center;
@@ -276,34 +278,35 @@ main {
 /* SECCION 4 */
 .section-4 {
   background-color: var(--background-7);
-  color: var(--color-1);
+  color: var(--color-4);
 }
 .text-4 h2 {
   display: inline;
-  font-size: 50px;
+  font-size: 24px;
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   line-height: 60px;
   text-align: center;
 }
 .text-4 p {
-  font-size: 24px;
+  font-size: 19px;
   letter-spacing: -0.16px;
   line-height: 36px;
   text-align: center;
 }
 .section-button-4 {
-  color: var(--color-1);
+  color: var(--color-4);
   transition: 0.1s ease-in-out;
+  border: 1px solid black;
 }
 .section-button-4:hover {
-  background-color: #005236;
+  background-color: #97bea675;
 }
 
 /* SECCION 5 */
 .section-5 {
   background-color: var(--background-8);
-  color: var(--color-1);
+  color: #1e3932;
 }
 .text-5 h2 {
   display: inline;
@@ -321,17 +324,18 @@ main {
   font-weight: 500;
 }
 .section-button-5 {
-  color: var(--color-1);
+  color: #1e3932;
   transition: 0.1s ease-in-out;
+  border: 1px solid #1e3932;
 }
 .section-button-5:hover {
-  background-color: #005136;
+  background-color: #7dadc256;
 }
 
 /* SECCION 6 */
 .section-6 {
-  background-color: var(--background-5);
-  color: var(--color-1);
+  background-color: var(--background-6);
+  color: #1e3932;
 }
 .text-6 h2 {
   display: inline;
@@ -348,11 +352,12 @@ main {
   text-align: center;
 }
 .section-button-6 {
-  color: var(--color-1);
+  color: #1e3932;
   transition: 0.1s ease-in-out;
+  border: 1px solid #1e3932;
 }
 .section-button-6:hover {
-  background-color: #006741;
+  background-color: rgba(32, 152, 108, 0.308);
 }
 
 /* SECCION DE DESCUENTO */
